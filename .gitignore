@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing and Mock Data (Ignoring local test runs)
+site/BUG_REPORT.md
+site/check_stars.ts
+site/find_star.ts
+site/list_iztro_stars.ts
+site/test_engine.ts
+site/test_iztro.js
+site/test_iztro.ts
+site/test_lunar.js
+site/test_raw_ty.js
+site/test_raw_ty.ts
+site/test.js
+site/dump.json
+site/output.json
+site/test_out.json
+site/test_out.txt
+site/test_out_all.json
+site/out.txt
+site/temp.html
+site/detail-stitch.html
+
+# Production/Build
+site/dist/
+site/dist-ssr/
+site/build/
+
+# Environment Variables (CRITICAL: DO NOT PUSH)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+site/.env*
+
+# Frameworks / Tools
+.tanstack/
+.stitch/
+skills/
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
